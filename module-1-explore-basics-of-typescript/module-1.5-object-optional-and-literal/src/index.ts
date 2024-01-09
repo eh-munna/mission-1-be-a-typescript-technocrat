@@ -3,7 +3,7 @@ const user: {
   middleName?: string; // optional type
   lastName: string;
   isActive: boolean;
-  university: 'Somewhere'; // type literal
+  university: 'Somewhere'; // type string literal
 } = {
   university: 'Somewhere',
   firstName: 'John',
